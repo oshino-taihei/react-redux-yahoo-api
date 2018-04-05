@@ -1,0 +1,19 @@
+// 本来はAPIで取得すべき。今回はハードコードし固定のJSONを返す。
+const initialState = {
+    categories: [
+        {
+            id: '1',
+            name: 'すべてのカテゴリ',
+        },
+        {
+            id: '2502',
+            name: 'パソコン、周辺機器',
+        },
+        {
+            id: '10002',
+            name: '本、雑誌、コミック',
+        },
+    ]
+};
+
+export default () => initialState;
